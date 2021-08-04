@@ -1,0 +1,28 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+
+#searchbar{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 15%;
+    border-radius: 5px;
+}
+
+#searchbutton{
+    font-family: 'Raleway', sans-serif;
+    background: #0065FC;
+}
+
+.searchbox{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.label_icon_location{
+    padding: 10px;
+    background-color: #DEEBFF;
+}
