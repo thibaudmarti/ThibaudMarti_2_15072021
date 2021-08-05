@@ -10,9 +10,7 @@
     list-style-type: none;
 }
 
-h1{
-    font-size: 1.5rem;
-}
+/*************** BODY  *************/
 
 body{
     font-family: "Raleway", sans-serif;
@@ -20,7 +18,41 @@ body{
     margin-left: 30px;
 }
 
+a,
+a:visited{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/****************** HEADER ***************/
+
+header{
+    display: grid;
+    grid-template-columns: 10% 50% 20% 20%;
+}
+
+#navigation{
+    grid-column-start: 3;
+}
+
+#logo img{
+    object-fit: cover; /* permet de ne pas déformer l'objet en le coupant si nécessaire */
+}
+
+/******************** MAIN ******************/
+
+
+h1{
+    font-size: 1.5rem;
+}
+
+/* .first_article{
+    position: relative;
+} */
+
 #searchbar{
+    /* position: absolute; */
     display: flex;
     margin: 15px;
     margin-left: auto;
@@ -66,22 +98,6 @@ label{
     background-color: #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-a,
-a:visited{
-    color: black;
-    text-decoration: none;
-    display: inline-block;
-}
-
-header{
-    display: grid;
-    grid-template-columns: 10% 50% 20% 20%;
-}
-
-#navigation{
-    grid-column-start: 3;
 }
 
 /************ RESPONSIVE ****************/
