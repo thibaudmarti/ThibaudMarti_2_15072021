@@ -26,6 +26,12 @@ body{
     margin-left: auto;
 }
 
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #searchbutton{
     font: 900 0.9rem "Raleway";
     background-color: #0065FC;
@@ -53,6 +59,7 @@ body{
 }
 
 .label_icon_location{
+    font-size: 0.9rem;
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -75,4 +82,26 @@ header{
 
 #navigation{
     grid-column-start: 3;
+}
+
+/************ RESPONSIVE ****************/
+
+@media screen and (max-width: 650px){
+    header {
+        display: block;
+    }
+}
+/******************************* EXEMPLE *****************************/
+exemple {
+    color: blue; /* change la couleur */
+    opacity: 0.1; /* change l'opacité. Ici 10% */
+    background-color: yellow; /* change la couleur de fond */
+    font-family: Arial;/* change la police utilisée */
+    text-align: center; /* change l'allignement */
+    font-size: 14px; /* change la taille de la police */
+    border: 1px solid black; /* ajoute une bordure */
+    margin: 5px; /* ajoute une marge autour de l'élément */
+    padding: 10px; /* ajoute de l'espace à l'intérieur de l'élément */
+    height: 50px; /* hauteur de l'élément */
+    width: 50px; /* largeur de l'élément */
 }
