@@ -15,7 +15,7 @@
 body{
     font-family: "Raleway", sans-serif;
     background-color: white;
-    margin-left: 30px;
+    
 }
 
 a,
@@ -36,7 +36,7 @@ header{
     grid-column-start: 3;
 }
 
-#logo img{
+#logo svg{
     object-fit: cover; /* permet de ne pas déformer l'objet en le coupant si nécessaire */
 }
 
@@ -98,6 +98,32 @@ label{
     background-color: #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+/****************** FOOTER *****************/
+
+#container{
+    width: 100%;
+    background: #F2F2F2;
+    height: 200px;
+}
+
+#ul_container{
+    margin-left: 50px;
+    padding-top: 50px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_list a{
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.p_list a{
+    margin: 0 0 10px 0;
 }
 
 /************ RESPONSIVE ****************/
