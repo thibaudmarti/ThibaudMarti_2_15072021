@@ -78,6 +78,7 @@ label{
 #searchbutton:hover{
     border: 1px solid red;
     color: black;
+    font-size: 15px;
 }
 
 .searchbox{
