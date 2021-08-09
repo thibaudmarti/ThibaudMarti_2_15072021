@@ -5,8 +5,11 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Reservia</title> 
             <link rel="stylesheet" href="style/style.css" />
-            <!--link police-->
-            <script src="https://kit.fontawesome.com/4c7d6da007.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><!--link police-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+            <!-- <script src="https://kit.fontawesome.com/4c7d6da007.js" crossorigin="anonymous"></script> -->
         </head>
 
         <body>
@@ -30,7 +33,6 @@
                 </div>
             </header>
             <!--MAIN-->
-            <!-- Bonjour nouveau commentaire -->
             <main>
             <!--ARTICLE Trouver votre hebergement-->
                 <article class="first_article">
@@ -58,10 +60,10 @@
                     </div>
 
                 </article>
-            <!--ARTICLE Hebergement + populaires-->
-            <article>
+            <!--ARTICLE 1 Hebergement + populaires-->
+            <article class="article1_container">
                 <!---------------SECTION 1 ---------------- Les plus populaires-->
-                <section class="grey_border">
+                <section class="section1_container">
                     <div class="section1_title">
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line"></i><!-- icone  -->
@@ -86,49 +88,55 @@
                             </div>
                         </div>
                     </a>
-                    <div class="section1_items">
-                        <div class="section1_img">
-                            <img src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambres d'hôtes Au cœur de l'eau"> <!-- Alt 0156 pour œ -->
+                    <a href="#">
+                        <div class="section1_items">
+                            <div class="section1_img">
+                                <img src="assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambres d'hôtes Au cœur de l'eau"> <!-- Alt 0156 pour œ -->
+                            </div>
+                            <div class="section1_side">
+                                <div class="section1_description">
+                                    <p class="title_item">Au cœur de l'eau Chambres d'hôtes</p>
+                                    <p class="price">Nuit à partir de 71€</p>
+                                    <div class="rating">  <!-- change color star-->
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <div class="greystar">
+                                            <i class="fas fa-star greyStar"></i>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
                         </div>
-                        <div class="section1_description">
-                            <p class="title_item">Au cœur de l'eau Chambres d'hôtes</p>
-                            <p class="price">Nuit à partir de 71€</p>
-                            <div class="rating">  <!-- change color star-->
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <div class="greystar">
-                                    <i class="fas fa-star greyStar"></i>
+                    </a>
+                    <a href="#">
+                        <div class="section1_items">
+                            <div class="section1_img">
+                                <img src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
+                            </div>
+                            <div class="section1_side">
+                                <div class="section1_description">
+                                    <p class="title_item">Hôtel Tout bleu et Blanc</p>
+                                    <p class="price">Nuit à partir de 68€</p>
+                                    <div class="rating">  <!-- change color star-->
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <div class="greystar">
+                                            <i class="fas fa-star greyStar"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="section1_items">
-                        <div class="section1_img">
-                            <img src="assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc">
-                        </div>
-                        <div class="section1_description">
-                            <p class="title_item">Hôtel Tout bleu et Blanc</p>
-                            <p class="price">Nuit à partir de 68€</p>
-                            <div class="rating">  <!-- change color star-->
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <div class="greystar">
-                                    <i class="fas fa-star greyStar"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </section>
-                <!--SECTION Hebergement-->
-                <div class="grey_border">
-                    <aside>
-
-                    </aside>
-                </div>
+                <!--------------------SECTION 2 Hebergement----------------->
+                <section class="section2_container">
+                    <h2>Hébergements à Marseille</h2>
+                </section>
             </article>
             <!--ARTICLE Activités-->
             <article>
