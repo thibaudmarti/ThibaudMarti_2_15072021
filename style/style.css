@@ -61,7 +61,8 @@ header a{
     border: 2px solid transparent;
 }
 
-header a:hover{
+.nav2:hover,
+.sign_up:hover{
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
@@ -78,6 +79,16 @@ header a:hover{
 
 header .sign_up{
     color: #0065FC;
+}
+
+header .nav1{
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+.nav1:hover{
+    color:black;
+    border-top: 2px solid white;
 }
 
 
@@ -317,7 +328,7 @@ label{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     /* align-items: center; */
     /* display: grid;
     grid-template-columns: 67% 33%; */
@@ -328,6 +339,7 @@ label{
 .section2_container{
     max-width: 33%;
     min-width: 375px;
+    max-height: 620px;
     background-color: #F2F2F2;
     border-radius: 1.2rem;
     padding: 20px;
@@ -421,15 +433,19 @@ label{
     /* border-radius: 20px; */
     border-radius: 1.2rem;
     padding: 40px 0 40px 40px;
-    margin: 20px auto;
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     /* margin-right: 20px; */
 }
 
-/* .section3_item_container{
-    width: 100%;
-} */
+.section3_item_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .section3_item{
     background-color: white;
@@ -485,6 +501,32 @@ label{
 .section4_container{
     max-width: 1340px;
     margin: auto;
+}
+
+.section4_item_container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 215px 65px 166px; */
+}
+
+/* .section4_item1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+} */
+
+.section4_item1{
+    /* max-width: 100%; */
+    grid-area: 1 / 1 / 1 / 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.section4_img{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
 }
 
 /****************** FOOTER *****************/
@@ -546,10 +588,23 @@ footer{
     .nav2{
         order: 1;
     }
+
+    header .nav1{
+        border-top: 2px solid white;
+        border-bottom: 2px solid #0065FC;
+    }
     
-    .nav1:hover,
+    header .nav1:hover{
+        color: black;
+        border-bottom: 2px solid #d9d9d9;
+    }
+
+    header .nav2{
+        border-bottom: 2px solid #d9d9d9;
+    }
+
     .nav2:hover{
-        border-top: none;
+        border-top: 2px solid white;
         border-bottom: 2px solid #0065FC;
     }
     
@@ -558,6 +613,9 @@ footer{
         padding-right: 20px;
     }
 
+
+    /************* HEADER  **********/
+
     .searchbutton1{
         visibility: hidden;
         max-width: 1px;
@@ -565,6 +623,86 @@ footer{
 
     .searchbutton2 i{
         visibility: visible;
+    }
+
+    .filter_title{
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .filter_container a{
+        transform: translateX(-45px);
+    }
+
+    .filter_family{
+        /* transform: translateX(-40px); */
+        max-width: 90px;
+    }
+
+    /* SECTION 2 */
+
+    .section_container{
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .section2_container{
+        max-width: 100%;
+        width: 100%;
+        min-width: 320px;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        align-items: center;
+    }
+    /* .section2_container{
+        max-width: 33%;
+        min-width: 375px;
+        max-height: 620px;
+        background-color: #F2F2F2;
+        border-radius: 1.2rem;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    } */
+
+    .section2_container a{
+        margin: 0;
+        max-width: 320px;
+    }
+
+    .section2_title h2 {
+        padding-right: 20px;
+    }
+
+    .section2_item{
+        max-width: 310px;
+        min-width: 310px;
+        align-items: center;
+        /* margin: 20px 30px; */
+    }
+
+    /* SECTION 3 */
+
+    .section3_container{
+        background: white;
+        padding: 40px 0;
+        min-width: 300px;
+    }
+
+    .section3_item_container{
+        width: 100%;
+    }
+
+    .section3_item{
+        width: 310px;
+        margin: 20px 0;
+    }
+
+    .section3_img img{
+        width: 300px;
     }
     
 }
