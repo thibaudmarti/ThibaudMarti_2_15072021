@@ -118,9 +118,6 @@ h1{
 }
 
 .searchbar_container{
-    /* max-width: 30%; */
-    /* min-width: 420px; */
-    /* min-height: 50px; */
     max-width: 1340px;
 }
 
@@ -129,9 +126,6 @@ h1{
     margin: 15px;
     margin-left: 0;
     min-height: 50px;
-    /* max-width: 100%; */
-    /* max-width: 30%; */
-    /* min-width: 300px; */
 }
 
 label{
@@ -338,9 +332,9 @@ label{
 /******************************* SECTION 2  **************************/
 
 .section2_container{
-    width: 375px;
-    /* max-width: 33%;
-    min-width: 375px; */
+    /* width: 375px; */
+    /* max-width: 33%; */
+    min-width: 375px;
     max-height: 620px;
     background-color: #F2F2F2;
     border-radius: 1.2rem;
@@ -364,8 +358,8 @@ label{
 
 .section2_item{
     background-color: white;
-    max-width: 343px;
-    min-width: 334px;
+    max-width: 320px;
+    min-width: 310px;
     height: 144px;
     border-radius: 1.2rem;
     margin: 20px 0;
@@ -432,14 +426,12 @@ label{
     max-width: 66%;
     min-width: 375px;
     background-color: #F2F2F2;
-    /* border-radius: 20px; */
     border-radius: 1.2rem;
     padding: 40px 0 40px 40px;
     margin: 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin-right: 20px; */
 }
 
 .section3_item_container{
@@ -475,7 +467,6 @@ label{
     width: 236px;
     height: 114px;
     object-fit: cover;
-    /* padding: 5px 5px 3px 5px; */
     margin: 5px;
     border-radius: 1.2rem 1.2rem 0 0 ;
 }
@@ -519,19 +510,6 @@ label{
     grid-template-columns: 25% 25% 25% 25%; */
     /* grid-template-rows: 215px 65px 166px; */
 }
-
-/* .section4_item1{
-    grid-row-start: 1;
-    grid-row-end: 4;
-} */
-
-/* .section4_item1{
-    grid-area: 1 / 1 / 1 / 1;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    object-fit: cover;
-} */
 
 .section4_column_container{
     width: 300px;
