@@ -192,6 +192,7 @@ label{
 
 .searchbox::placeholder{
     color: black;
+    opacity: 1;
 }
 
 .label_icon_location{
