@@ -26,6 +26,7 @@
 body{
     font-family: "Raleway", sans-serif;
     background-color: white;
+    min-width: 320px;
 }
 
 a,
